@@ -1,0 +1,125 @@
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.pre_img {
+  height: 600px;
+  width: 600px;
+}
+
+input[type="file"] {
+  background-color: #137016;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 40px 40px;
+  /* display: none; */
+}
+
+#pre {
+  background-color: #137016; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px 40px;
+}
+
+p {
+  margin: 50px;
+  font-size: 72px;
+}
+
+#link {
+  visibility: hidden;
+}
+figure {
+  float: left;
+  margin: 10;
+  text-align: center;
+  padding: 0;
+}
+
+button {
+  background-color: #137016;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 200px;
+  margin: 4px 2px;
+
+}
+body {
+  background-image: url("background.jpg");
+  background-color: #cccccc;
+ }
+
+ #imageinput,button {
+   appearance: none;
+   backface-visibility: hidden;
+   background-color: #27ae60;
+   border-radius: 8px;
+   border-style: none;
+   box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+   box-sizing: border-box;
+   color: #fff;
+   cursor: pointer;
+   display: inline-block;
+   font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+   font-size: 16px;
+   font-weight: 600;
+   letter-spacing: normal;
+   line-height: 1.5;
+   outline: none;
+   overflow: hidden;
+   padding: 13px 20px;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   transform: translate3d(0, 0, 0);
+   transition: all .3s;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   vertical-align: top;
+   white-space: nowrap;
+ }
+ 
+ #imageinput,button:hover {
+   background-color: #1e8449;
+   opacity: 1;
+   transform: translateY(0);
+   transition-duration: .35s;
+ }
+ 
+ #imageinput,button:active {
+   transform: translateY(2px);
+   transition-duration: .35s;
+ }
+ 
+ #imageinput,button:hover {
+   box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+ }

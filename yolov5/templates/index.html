@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crown Starfish Detection</title>
+    <link rel="stylesheet" type="text/css" href="../static/index.css" />
+    <link rel="icon" href="../static/icon.webp">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="../static/index.js"></script>
+  </head>
+  <body>
+    <div class="App">
+      <header class="App-header">
+        <p> Crown Starfish Detection </p>
+        <!-- <div className="pre_img">
+          <span><img id="imagebox" src="" /></span>
+        </div> -->
+        <div id="link">
+          <figure>
+            <img src="" width="500px" hight="500px"id="original" original/>
+            <figcaption>Basic Model</figcaption>
+          </figure>
+          <figure>
+            <img src="" width="500px" hight="500px"id="augmented" original/>
+            <figcaption>Preprocessed Model</figcaption>
+          </figure>
+          <figure>
+            <img src="" width="500px" hight="500px"id="preprocessing" original/>
+            <figcaption>Agumented Model</figcaption>
+          </figure>
+        </div>
+        <!-- <video width="320" height="240" controls>
+          <source src="/static/video_1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video> -->
+        <form>
+          <input
+            id="imageinput"
+            type="file"
+            name="image"
+            onchange="readUrl(this)"
+          />
+        </form>
+        <button name="send" id="sendbutton">Send</button>
+      </header>
+    </div>
+  </body>
+</html>

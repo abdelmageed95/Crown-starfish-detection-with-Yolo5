@@ -1,0 +1,5 @@
+train: D:\CV_project\starfish_data\train\images
+val: D:\CV_project\starfish_data\valid\images
+
+nc: 1
+names: ['starfish']
