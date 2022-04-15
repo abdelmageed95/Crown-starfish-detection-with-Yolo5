@@ -7,7 +7,7 @@ The Dataset was acquired from 17 YouTube, at the end we got 725 images.And using
 - Image Preprocessing: we used  white balance enhancement technique 
 • lighten dark images
 • solve the greenish-blue appearance
-<img src="images\whiten_graph.jpeg" hight="20px">
+<img src="images\output.png" hight="20px">
 -Image Augmentation
 --------------------------------
 ### Models Results
