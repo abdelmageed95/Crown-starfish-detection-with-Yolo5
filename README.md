@@ -13,8 +13,8 @@ The Dataset was acquired from 17 YouTube, at the end we got 725 images.And using
 ### Models Results
 -Basic Model
 Test Sample             |  Train
-:-------------------------:|:-------------------------:
-<img src="results\exp9\1403326938.jpg" width="500px" hight="500px"/>  |  ![](notebook\original\mAP.PNG)
+
+<img src="images\1.jpg" width="500px" hight="500px"/>  |  ![](notebook\original\mAP.PNG)
 
 -Preprocessed Model
 Test Sample             |  Train
