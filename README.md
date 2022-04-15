@@ -35,6 +35,6 @@ we used Flak API to deploy our model.
 steps to run the code:
  - Clone the repo
  - pip install requirements.txt 
- - Run the application file ../Crown-starfish-detection-with-Yolo5/yolov5/app.py
+ - Run the application file " ../Crown-starfish-detection-with-Yolo5/yolov5/app.py"
  - click the link that will appear and choose an image or vedio 
- - The results will be saved in ../Crown-starfish-detection-with-Yolo5/results
+ - The results will be saved in  " ../Crown-starfish-detection-with-Yolo5/results"
