@@ -254,11 +254,11 @@ def main(opt):
     return path
 
 def run_test(image_path):
-    opt = parse_opt(weights_path =r"C:\Users\admin\Documents\GitHub\Crown-starfish-detection-with-Yolo5\weights\best.pt",test_images_path=image_path ,data_yaml="starfish_data/data.yaml")
+    opt = parse_opt(weights_path =r"..\Crown-starfish-detection-with-Yolo5\weights\best.pt",test_images_path=image_path ,data_yaml="starfish_data/data.yaml")
     path_original = main(opt)
-    opt = parse_opt(weights_path =r"C:\Users\admin\Documents\GitHub\Crown-starfish-detection-with-Yolo5\weights\preprocessing_best.pt",test_images_path=image_path ,data_yaml="starfish_data/data.yaml")
+    opt = parse_opt(weights_path =r"..\Crown-starfish-detection-with-Yolo5\weights\preprocessing_best.pt",test_images_path=image_path ,data_yaml="starfish_data/data.yaml")
     path_preprocessing =  main(opt)
-    opt = parse_opt(weights_path =r"C:\Users\admin\Documents\GitHub\Crown-starfish-detection-with-Yolo5\weights\aug_best.pt",test_images_path=image_path ,data_yaml="starfish_data/data.yaml")
+    opt = parse_opt(weights_path =r"..\Crown-starfish-detection-with-Yolo5\weights\aug_best.pt",test_images_path=image_path ,data_yaml="starfish_data/data.yaml")
     path_augemented =  main(opt)
     return path_original,path_preprocessing,path_augemented
 

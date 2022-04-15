@@ -23,13 +23,13 @@ def detect():
     obj = (video.filename)
     input_path = str(os.path.join(uploads_dir, obj))
     path_original,path_preprocessing,path_augemented = run_test(input_path)
-    with open(os.path.join(r"C:\Users\admin\Documents\GitHub\Crown-starfish-detection-with-Yolo5",path_original), "rb") as f:
+    with open(os.path.join(r"..\Crown-starfish-detection-with-Yolo5",path_original), "rb") as f:
         image_binary = f.read()
     image_original = b64encode(image_binary).decode("utf-8")
-    with open(os.path.join(r"C:\Users\admin\Documents\GitHub\Crown-starfish-detection-with-Yolo5",path_preprocessing), "rb") as f:
+    with open(os.path.join(r"..\Crown-starfish-detection-with-Yolo5",path_preprocessing), "rb") as f:
         image_binary = f.read()
     image_preprocessing = b64encode(image_binary).decode("utf-8")
-    with open(os.path.join(r"C:\Users\admin\Documents\GitHub\Crown-starfish-detection-with-Yolo5",path_augemented), "rb") as f:
+    with open(os.path.join(r"..\Crown-starfish-detection-with-Yolo5",path_augemented), "rb") as f:
         image_binary = f.read()
     image_augemented = b64encode(image_binary).decode("utf-8")
     return jsonify({'status': True, 'image_original': image_original,'image_preprocessing': image_preprocessing,'image_augemented':image_augemented})
