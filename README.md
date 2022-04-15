@@ -29,3 +29,12 @@ The Dataset was acquired from 17 YouTube, at the end we got 725 images.And using
 we used Flak API to deploy our model.
 
 [![run](https://img.youtube.com/vi/DeSbxpgxe_I/0.jpg)](https://www.youtube.com/embed/DeSbxpgxe_I)
+
+
+
+steps to run the code:
+ - Clone the repo
+ - pip install requirements.txt 
+ - Run the application file ../Crown-starfish-detection-with-Yolo5/yolov5/app.py
+ - click the link that will appear and choose an image or vedio 
+ - The results will be saved in ../Crown-starfish-detection-with-Yolo5/results
