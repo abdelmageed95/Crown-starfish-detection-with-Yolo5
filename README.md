@@ -19,12 +19,12 @@ Test Sample             |  Train
 -Preprocessed Model
 Test Sample             |  Train
 :-------------------------:|:-------------------------:
-<img src="results\exp11\1403326938.jpg" width="500px" hight="500px"/>  |  ![](notebook\preprocessing\mAP.PNG)
+<img src="images\2.jpeg" width="500px" hight="500px"/>  |  ![](notebook\preprocessing\mAP.PNG)
 
 -Augmented Model
 Test Sample             |  Train
 :-------------------------:|:-------------------------:
-<img src="results\exp10\1403326938.jpg" width="500px" hight="500px"/>  |  ![](notebook\original\mAP.PNG)
+<img src="images\3.jpeg" width="500px" hight="500px"/>  |  ![](notebook\original\mAP.PNG)
 
 ### DEMO
 we used Flak API to deploy our model.
