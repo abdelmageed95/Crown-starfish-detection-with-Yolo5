@@ -8,8 +8,11 @@ The Dataset was acquired from 17 YouTube, at the end we got 725 images.And using
 • lighten dark images
 • solve the greenish-blue appearance
 <img src="images\output.png" hight="20px">
+
+
 -Image Augmentation
---------------------------------
+
+
 ### Models Results
 
 -Basic Model
