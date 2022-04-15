@@ -38,3 +38,9 @@ steps to run the code:
  - Run the application file " ../Crown-starfish-detection-with-Yolo5/yolov5/app.py"
  - click the link that will appear and choose an image or vedio 
  - The results will be saved in  " ../Crown-starfish-detection-with-Yolo5/results"
+
+
+## Note :
+" you will need to change the paths in  " ..\Crown-starfish-detection-with-Yolo5\yolov5\app.py"
+ and " ..\Crown-starfish-detection-with-Yolo5\yolov5\detect.py" to your absolute path
+
